@@ -1,0 +1,178 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PinkKetchup's Portfolio</title>
+    <link rel="stylesheet" href="css/global.css" />
+     <link rel="icon" type="image/ico" href="img/favicon.ico"/> 
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body class="page">
+     <div class="button back"> <a href="index.html">&#8592;</a></div>
+       <div class="row">
+        <div class="large-12 columns">
+
+          <div class="introtext center">
+               <h4>Victoria Artz</h4>
+               <h3>UX/Visual Designer</h3>
+                <p>I design and prototype user interfaces and then user test and iterate. That's my process. Oh I can code too. Design is my passion, so I am not afraid to get my hands dirty and work on all aspects of design from marketing to branding to print and visual design. I want people to feel delighted when they are using the products I design. The best part of my job is talking to customers and getting first hand feedback. Click on my work below to get more information behind my process and what I learned.</p>
+           </div>
+          </div>
+        </div>
+<!--     <div class="row">
+      <div class= "large-12 columns">
+    <nav class = "port">
+      <ul class="hide-for-small-only deskmenu">
+        <li><a href="index.html"><img src="img/VA.svg"></a></li>
+        <li><a href="portfolio.html">Work</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div id="menu-button" class="show-for-small-only"> &#9776; Menu</div>
+      <ul class="show-for-small-only mobilemenu">
+        <li><a class="menubutton" href="#">About Me</a></li>
+        <li><a class="menubutton" href="#">Portfolio</a></li>
+        <li><a class="menubutton" href="#">Resume</a></li>
+        <li><a class="menubutton" href="#">Contact</a></li>
+       <div id="close-button" class="button show-for-small-only">X</div>
+      </ul>
+  </nav>
+  </div>
+  </div> -->
+<!-- <header>
+   <div id="intropod">
+    <div id="triangle-left"></div>
+    <div id="triangle-right"></div>
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="introtext center">
+         
+           </div>
+          </div>
+        </div>
+      </div>
+</header> -->
+<div id="top"></div>
+<section class="gallery">
+  <div class="row">
+    <div class="large-12 columns">
+    <ul>
+      <a href="#" class="close"></a>
+      <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/upsight_03.jpg"></a>
+        </li>
+        <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/kt-1.jpg"></a>
+        </li>
+        <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/upsight_04.jpg"></a>
+        </li>
+        <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/kt_01.jpg"></a>
+        </li>
+        <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/segment.jpg"></a>
+        </li>
+        <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/mp_01.jpg"></a>
+        </li>
+        <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/drawsomething_01.jpg"></a>
+        </li>
+        <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/ekleo.jpg"></a>
+        </li>
+        <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/scio.jpg"></a>
+        </li>
+   <!--      <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/drawsomething_01.jpg"></a>
+        </li>
+        <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/drawsomething_01.jpg"></a>
+        </li>
+        <li>
+        <a class="image" href="#thumb01"><img src="img/thumbnails/ekleo.jpg"></a> -->
+      </li>
+    </ul>
+    </div> <!-- end of columns -->
+  </div> <!-- end of row -->
+
+
+<!-- Thumbnail 01-->
+<div id="thumb01" class="takeover">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="desc">
+        <h1>Title</h1>
+        <p>Bacon ipsum dolor amet commodo beef ribs ea, tail officia tongue ut. Tri-tip frankfurter proident elit. Velit tri-tip ut chicken boudin, andouille strip steak jerky. Shank velit in, ex ipsum landjaeger aliqua.</p>
+      </div> <!--/desc-->
+        <img src="img/thumbnails/kt_01.jpg">
+     
+    </div> <!--/columns-->
+  </div> <!-- /row -->
+</div><!--/takeover-->
+</section><!-- end of thumbnails gallery -->
+<footer class="bottom">
+  <div class="row">
+    <div class="large-12 columns">
+<p>Designed/Coded by PinkKetchup</p>
+<a href="www.twitter.com"><img src ="img/twitter.svg"></a>
+<a href="www.twitter.com"><img src ="img/email.svg"></a>
+<a href="www.twitter.com"><img src ="img/linkedin.svg"></a>
+<a href="www.twitter.com"><img src ="img/dribble.svg"></a>
+  </div>
+  </div>
+</footer>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/foundation.min.js"></script>  
+<script> 
+   //safemode:
+    jQuery(document).ready(function( $ ) { 
+
+      $(".page").addClass("page-fade");
+
+      $( "#menu-button" ).click(function() {
+        $(".mobilemenu").toggleClass("active");
+      });
+
+      $( "#close-button" ).click(function() {
+        $(".mobilemenu").removeClass("active");
+      });
+
+      // if(window.location.hash == '/pathname'){
+      //   $("#sectors_link").addClass('active');
+      //   sectorpage =true
+      // }
+      $( ".button" ).click(function() {
+        $( ".about" ).slideToggle( "slow" );
+      });
+
+      $(".gallery ul li a").click(function() {
+          var itemID = $(this).attr("href");
+          $(".gallery ul").addClass("open");
+          $(itemID).addClass("open");
+          return false;
+      });
+
+      $(".close").click(function() {
+        $(".takeover, .gallery ul").removeClass("open");
+        return false;
+        }); 
+
+      $(".gallery ul li a").click(function() {
+          $('html, body').animate({
+              scrollTop: parseInt($("#top").offset().top)
+            }, 400);
+          }); 
+      $("#triangle-left").css({transform: 'rotate(44deg)', top: '-270px', transition: 'all 0.5s ease-in'})
+
+       $("#triangle-right").css({transform: 'rotate(-34deg)', top: '-213px', transition: 'all 0.5s ease-in'})
+
+     });
+      $(document).foundation();
+    </script>
+  </body>
+</html>
