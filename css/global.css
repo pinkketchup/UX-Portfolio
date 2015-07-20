@@ -317,7 +317,7 @@ a:hover {
 .proj-title p { 
 	font-size: 1em;
 	}
-.title {
+/*.title {
 	display: block;
 	width: 100%; 
 	margin-left: 0;
@@ -325,7 +325,7 @@ a:hover {
 .title img{
 	float: right;
 	padding-left: 30px;
-	}
+	}*/
 .desc-line {
 	background-color: #000;
 	background-size: 100%, cover !important;
@@ -521,11 +521,19 @@ a:hover {
   	-webkit-transition: all 0.5s ease-in-out;
   	-moz-transition: all 0.5s ease-in-out;
   	transition: all 0.5s ease-in-out;
+  	overflow: auto;
 	}
+.full-img img {
+	float: right;
+	padding-bottom: 30px;
+	width: 50%;
+		}
 
 .takeover img {
-	width: 50%;
 	float: left;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	}
 .takeover .desc {
 	float: left;
@@ -534,6 +542,13 @@ a:hover {
 	padding: 0 40px 40px;
 	overflow: auto;
 	}
+.takeover .desc p {
+	float: left;
+}
+.design img {
+	float: left;
+	padding-left: 30px;
+}
 .takeover > * {
 	opacity: 0;
   -webkit-transition: all 0.5s linear;
@@ -586,10 +601,35 @@ footer {
 	position: fixed;
 	bottom: 0;
 	padding-bottom: 30px;
-}
+	}
 .bottom {
 	position: inherit;
 	bottom: 0;
+	}
+.info {
+	width: 85%;
+	float: right;
+	}
+.heading {
+	float: left;
+	width: 15%;
+	}
+.heading p {
+	text-transform: uppercase;
+	}
+.info h1 {
+	font-family: "Quicksand", sans-serif;
+	font-size: 1.1em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+.info h2 {
+	font-family: "Open Sans Bold", sans-serif;
+	font-size: 1.3em;
+	}
+.info p {
+	margin-bottom: 0;
+	line-height: 1.5;
 }
 
 // Small screens
