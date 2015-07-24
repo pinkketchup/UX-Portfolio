@@ -649,12 +649,45 @@ nav li {
 .me img{
 	margin-top: 60px;
 }
+.takeover .desc {
+	width: 100%;
+}
+.desc h1 {
+	font-size: 1.2em;
+}
+.takeover img {
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+.full-img img {
+	width: 100%;
+}
+.gallery ul {
+	margin-left: 0;
+}
+.heading {
+	width: 100%;
+}
+.info {
+	width: 100%;
+}
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
 @media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+	.takeover .desc {
+	width: 100%;
+}
+.full-img img {
+	width: 100%;
+}
+.gallery ul li {
+	margin: 19px 55px 27px 19px;
+	} 
+}/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 // Large screens
 @media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
